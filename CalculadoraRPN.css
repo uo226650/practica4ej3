@@ -48,10 +48,6 @@ h1{
     grid-column-end: span 2;
 }
 
-/*(1,0,0)*/
-/*#borrar{
-    grid-column-end: span 2;
-}*/
 
 /*(0,1,1)*/
 input[type="submit"]{
@@ -95,6 +91,17 @@ pero que no se muestra visualmente ya que su significado se deriva por contexto 
 #limpiar:hover, #borrar:hover {
     color: rgb(246, 198, 198); 
     background-color: rgb(139, 85, 89);
+}
+
+/*(1,0,0)*/
+#on{
+    color: rgb(228, 212, 216); 
+    background-color: rgb(39, 38, 38);
+}
+
+/*(1,1,0)*/
+#on:hover{
+    background-color: rgb(76, 75, 75);
 }
 
 /*(1,0,0)*/
