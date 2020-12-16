@@ -614,7 +614,6 @@
         ?>
 
                 <form action='#' method='post' name='calculadora'>
-                        <label for='pantalla' class='visuallyhidden'>Pantalla:</label>
                         <div class='teclas'>
                             <?php
                             echo '<label for="pila" class="visuallyhidden">Pila:</label>';
