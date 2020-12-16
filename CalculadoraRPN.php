@@ -617,7 +617,9 @@
                         <label for='pantalla' class='visuallyhidden'>Pantalla:</label>
                         <div class='teclas'>
                             <?php
+                            echo '<label for="pila" class="visuallyhidden">Pila:</label>';
                             echo "<textarea id='pila' disabled>{$_SESSION['calculadoraRPN']->getPila()->ver()}</textarea>";
+                            echo '<label for="pantalla" class="visuallyhidden">Pantalla:</label>';
                             echo "<input type='text' id='pantalla' name='expresion' value='{$_SESSION['calculadoraRPN']->getPantalla()}' readonly/>";
                             ?>
                             <input type = 'submit' class='memoria' name = 'mmenos' value = 'M-'/>
